@@ -1,0 +1,16 @@
+.slide {
+  display: none;
+  overflow: hidden;
+  width: 99vw;
+  height: 96.5vh;
+}
+.slide.active {
+  display: block;
+}
+img {
+  width: 100%;
+  transition: 2s;
+}
+body {
+  background: black;
+}
